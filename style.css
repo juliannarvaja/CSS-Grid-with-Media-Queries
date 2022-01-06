@@ -1,0 +1,36 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-width: 600px) {
+    .grid {
+        grid-template-columns: none;
+    }
+}
+
+.item {
+    padding: 3rem;
+    margin: 2px;
+    background: #f4f4f4;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.4rem;
+    border: #ccc 1px solid;
+}
+
+#a {
+    background-color: red;
+}
+
+#b {
+    background-color: yellow;
+}
+
+#c {
+    background-color: green;
+}
+
+#d {
+    background-color: blue;
+}
